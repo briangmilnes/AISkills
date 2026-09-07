@@ -10,5 +10,7 @@ The product is agent-facing prose. The skills and their shared references are
 the code; the checks under `tests/` are the test suite.
 
 See [`CLAUDE.md`](CLAUDE.md) for the layout, the wrapper contract and the
-process the rounds follow. The repository is empty of packages at r0000 — that
-file describes the conventions the first rounds build to.
+process the rounds follow. Codex starts with [`AGENTS.md`](AGENTS.md), which
+loads that guide and its shared rulesets and defines the Astra adaptations.
+The repository is empty of packages at r0000 — the contributor guide describes
+the conventions the first rounds build to.
