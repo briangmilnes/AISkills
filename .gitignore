@@ -1,0 +1,5 @@
+# The user's global excludes (~/.config/git/ignore) drop every
+# .claude/settings.local.json.  This repository tracks its own on purpose:
+# it carries the agent permission set the rounds run under, and a permission
+# set nobody can review is a permission set nobody checked.
+!.claude/settings.local.json

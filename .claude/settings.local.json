@@ -1,0 +1,50 @@
+{
+  "env": {
+    "TZ": "America/Los_Angeles"
+  },
+  "permissions": {
+    "allow": [
+      "Skill(update-config)",
+      "Bash(*)",
+      "Read(/home/milnes/projects/**)",
+      "Read(~/projects/**)",
+      "Glob(/home/milnes/projects/**)",
+      "Glob(~/projects/**)",
+      "Grep(/home/milnes/projects/**)",
+      "Grep(~/projects/**)",
+      "Read(/home/milnes/.claude/**)",
+      "Read(~/.claude/**)",
+      "Write(/home/milnes/.claude/**)",
+      "Write(~/.claude/**)",
+      "Edit(/home/milnes/.claude/**)",
+      "Edit(~/.claude/**)",
+      "Read(/tmp/*)",
+      "Read(/tmp/**)",
+      "Write(/tmp/*)",
+      "Write(/tmp/**)",
+      "Edit(/tmp/*)",
+      "Edit(/tmp/**)",
+      "Glob(/tmp/**)",
+      "Grep(/tmp/**)",
+      "Read(/dev/*)",
+      "Write(/home/milnes/projects/AISkills/**)",
+      "Write(~/projects/AISkills/**)",
+      "Write(/home/milnes/projects/AISkills-agent*/**)",
+      "Write(~/projects/AISkills-agent*/**)",
+      "Edit(/home/milnes/projects/AISkills/**)",
+      "Edit(~/projects/AISkills/**)",
+      "Edit(/home/milnes/projects/AISkills-agent*/**)",
+      "Edit(~/projects/AISkills-agent*/**)",
+      "WebSearch",
+      "WebFetch(domain:docs.claude.com)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "WebFetch(domain:developers.openai.com)",
+      "WebFetch(domain:platform.openai.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:registry.npmjs.org)",
+      "WebFetch(domain:www.npmjs.com)",
+      "Bash(cd *)"
+    ]
+  }
+}
