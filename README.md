@@ -1,16 +1,17 @@
 # AISkills
 
-An umbrella repository of independent skill sets for Claude Code and Codex.
+This repository currently contains the contributor and agent instructions for
+the AISkills project. It does not yet contain a `packages/` directory, skills,
+plugin manifests, eval suites, tests, scripts, or generated documentation.
 
-Each package under `packages/` is its own plugin: its own skills, its own
-manifests, its own tests, installable on its own. Nothing here is a single
-pipeline, and no package reads another's files.
+The files currently tracked at the project root are:
 
-The product is agent-facing prose. The skills and their shared references are
-the code; the checks under `tests/` are the test suite.
+- [`README.md`](README.md), this repository description;
+- [`CLAUDE.md`](CLAUDE.md), the project guide and planned layout;
+- [`AGENTS.md`](AGENTS.md), Codex-specific instruction discovery and process
+  adaptations; and
+- `.claude/settings.local.json`, local Claude settings.
 
-See [`CLAUDE.md`](CLAUDE.md) for the layout, the wrapper contract and the
-process the rounds follow. Codex starts with [`AGENTS.md`](AGENTS.md), which
-loads that guide and its shared rulesets and defines the Astra adaptations.
-The repository is empty of packages at r0000 — the contributor guide describes
-the conventions the first rounds build to.
+When implementation begins, update this page from the actual tree. Do not treat
+the planned layout in [`CLAUDE.md`](CLAUDE.md) as evidence that those directories
+or packages exist.
